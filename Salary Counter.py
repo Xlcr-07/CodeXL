@@ -11,9 +11,11 @@ Input and Output Format:
 
 Refer sample input and output for formatting specification.
 All float values are displayed correct to 2 decimal places.
-All text in bold corresponds to input and the rest corresponds to output'''
+All text in bold corresponds to input and the rest corresponds to output
+'''
 
-name = input()
-age = int(input())
-year = str((2017 - age)+100)
-print(name + " will be 100 years old in " + year)
+p=int(input())
+h=p*0.8
+b=h/4
+d=p*0.4
+print("Total Salary=",(h+p+b+d))
